@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ObservingStudy.Events.StringEventArgs">
+    <Position X="0.5" Y="12" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Events\StringEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObservingStudy.Program">
+    <Position X="16.75" Y="8" Width="3.5" />
+    <AssociationLine Name="drawingView" Type="ObservingStudy.Views.DrawingView" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.938" Y="9.296" />
+        <Point X="19.938" Y="10.602" />
+        <Point X="21.25" Y="10.602" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="fTextView" Type="ObservingStudy.Views.TextView" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.188" Y="9.296" />
+        <Point X="19.188" Y="11.969" />
+        <Point X="21.25" Y="11.969" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="editingController" Type="ObservingStudy.Controllers.EditingController" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.75" Y="8.139" />
+        <Point X="16.375" Y="8.139" />
+        <Point X="16.375" Y="5.972" />
+        <Point X="14.75" Y="5.972" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="fEditor" Type="ObservingStudy.Editors.FEditor" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.49" Y="9.296" />
+        <Point X="17.49" Y="11.359" />
+        <Point X="15" Y="11.359" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="fListSelector" Type="ObservingStudy.Selectors.FListSelector" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.125" Y="9.296" />
+        <Point X="17.125" Y="9.98" />
+        <Point X="9.25" Y="9.98" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="infoList" Type="ObservingStudy.Models.InfoList" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.75" Y="8.324" />
+        <Point X="13.25" Y="8.324" />
+        <Point X="13.25" Y="8.046" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAQAAgAAACAAAAAAAQAAEAAAAABgAAAAY=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="drawingView" />
+      <Field Name="fTextView" />
+      <Field Name="editingController" />
+      <Field Name="fManaging" />
+      <Field Name="fEditor" />
+      <Field Name="fRadioSelector" />
+      <Field Name="fListSelector" />
+      <Field Name="infoList" />
+      <Field Name="messageLog" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Collections.ObjectModel.ObservableCollection&lt;T&gt;">
+    <Position X="26.5" Y="4" Width="4.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObservingStudy.Controllers.EditingController">
+    <Position X="10" Y="4" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAABAAgAAAAIAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Controllers\EditingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObservingStudy.Editors.FEditor">
+    <Position X="10.25" Y="10.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>BABQEAAAECAAAUAEAGiAAgACAACIAAAAAAAAABAAAAE=</HashCode>
+      <FileName>Editors\FEditor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObservingStudy.Selectors.FRadioSelector">
+    <Position X="5" Y="5.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAACAAAAAAAACgAAACAAAAAAAAEAAAAABAAAI=</HashCode>
+      <FileName>Selectors\FRadioSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObservingStudy.Selectors.FSelector">
+    <Position X="0.5" Y="5.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>BABAAAABACAAAMAAAmCgAAACACAQAAAAAAABAAAKAAI=</HashCode>
+      <FileName>Selectors\FSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObservingStudy.Selectors.FListSelector">
+    <Position X="5" Y="9.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAAABCgAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Selectors\FListSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObservingStudy.Views.DrawingView">
+    <Position X="21.25" Y="9" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Views\DrawingView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObservingStudy.Views.TextView">
+    <Position X="21.25" Y="11.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAGAAAAAAAAAAAAACAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Views\TextView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObservingStudy.FManager">
+    <Position X="15.75" Y="12.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BIFAAAGIACYAAEAEQiCABAECACIBAAAAAAAEBAAAKAE=</HashCode>
+      <FileName>FManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Editor" />
+      <Property Name="Selector" />
+      <Property Name="View" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObservingStudy.Models.InfoList">
+    <Position X="11.75" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\InfoList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObservingStudy.Views.MessageLog">
+    <Position X="21.75" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAIAAAAAAAAACAAAAAAAAAAAQAEAAAAA=</HashCode>
+      <FileName>Views\MessageLog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ObservingStudy.Interfaces.ISelector">
+    <Position X="5" Y="12.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\ISelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObservingStudy.Interfaces.IEditor" Collapsed="true">
+    <Position X="11.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEditor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObservingStudy.Interfaces.IView">
+    <Position X="21.25" Y="14.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObservingStudy.Interfaces.IMessageLog">
+    <Position X="21.75" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Interfaces\IMessageLog.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
